@@ -1,69 +1,163 @@
 [
-    {
-      "id": 1,
-      "name": "Hotel A",
-      "address": "123 Example Street",
-      "city": "Example City",
-      "country": "Example Country",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "amenities": ["Wi-Fi", "Swimming Pool", "Gym", "Restaurant"],
-      "rooms": [
-        { "id": 1, "type": "Single", "price": 100, "available": true },
-        { "id": 2, "type": "Double", "price": 150, "available": true },
-        { "id": 3, "type": "Suite", "price": 250, "available": false }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Hotel B",
-      "address": "456 Example Street",
-      "city": "Example City",
-      "country": "Example Country",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "amenities": ["Wi-Fi", "Swimming Pool", "Spa", "Restaurant"],
-      "rooms": [
-        { "id": 1, "type": "Single", "price": 120, "available": true },
-        { "id": 2, "type": "Double", "price": 180, "available": true }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Hotel C",
-      "address": "789 Example Street",
-      "city": "Example City",
-      "country": "Example Country",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "amenities": ["Wi-Fi", "Swimming Pool", "Fitness Center", "Restaurant"],
-      "rooms": [
-        { "id": 1, "type": "Single", "price": 90, "available": true },
-        { "id": 2, "type": "Double", "price": 140, "available": true },
-        { "id": 3, "type": "Suite", "price": 220, "available": false }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Hotel D",
-      "address": "987 Example Street",
-      "city": "Example City",
-      "country": "Example Country",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "amenities": ["Wi-Fi", "Swimming Pool", "Spa", "Restaurant"],
-      "rooms": [
-        { "id": 1, "type": "Single", "price": 110, "available": true },
-        { "id": 2, "type": "Double", "price": 160, "available": true }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Hotel E",
-      "address": "321 Example Street",
-      "city": "Example City",
-      "country": "Example Country",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "amenities": ["Wi-Fi", "Swimming Pool", "Fitness Center", "Restaurant"],
-      "rooms": [
-        { "id": 1, "type": "Single", "price": 80, "available": true },
-        { "id": 2, "type": "Double", "price": 130, "available": true }
-      ]
-    }
+  {
+    "id": 1,
+    "name": "Hotel A",
+    "address": "123 Example Street",
+    "city": "Example City",
+    "country": "Example Country",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "amenities": [
+      "Wi-Fi",
+      "Swimming Pool",
+      "Gym",
+      "Restaurant"
+    ],
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "price": 100,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "price": 150,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "price": 250,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hotel B",
+    "address": "456 Example Street",
+    "city": "Example City",
+    "country": "Example Country",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "amenities": [
+      "Wi-Fi",
+      "Swimming Pool",
+      "Spa",
+      "Restaurant"
+    ],
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "price": 120,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "price": 180,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hotel C",
+    "address": "789 Example Street",
+    "city": "Example City",
+    "country": "Example Country",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "amenities": [
+      "Wi-Fi",
+      "Swimming Pool",
+      "Fitness Center",
+      "Restaurant"
+    ],
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "price": 90,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "price": 140,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "price": 220,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hotel D",
+    "address": "987 Example Street",
+    "city": "Example City",
+    "country": "Example Country",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "amenities": [
+      "Wi-Fi",
+      "Swimming Pool",
+      "Spa",
+      "Restaurant"
+    ],
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "price": 110,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "price": 160,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Hotel E",
+    "address": "321 Example Street",
+    "city": "Example City",
+    "country": "Example Country",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "amenities": [
+      "Wi-Fi",
+      "Swimming Pool",
+      "Fitness Center",
+      "Restaurant"
+    ],
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "price": 80,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "price": 130,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hotel Teste",
+    "city": "São Paulo",
+    "address": "",
+    "country": "",
+    "description": "",
+    "amenities": []
+  }
 ]
