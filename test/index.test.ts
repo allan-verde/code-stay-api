@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { describe, expect, it, test } from 'vitest'
 
-test('Deve listar todas os hoteis', async () => {
+test('Deve listar todos os hoteis', async () => {
     const response = await axios({
         url: `http://localhost:8000/hotels`,
         method: 'GET',
@@ -75,4 +75,14 @@ describe('Testes de exclusão da rota /hotels/:id', () => {
       expect(response.status).toEqual(404)
       expect(response.data.message).toBe('Hotel não encontrado')
     })
+})
+
+test('Deve listar todos os usuários', async () => {
+  const response = await axios({
+      url: `http://localhost:8000/users`,
+      method: 'GET',
+      validateStatus: () => true
+  })
+
+  expect(response.status).toEqual(200)
 })
