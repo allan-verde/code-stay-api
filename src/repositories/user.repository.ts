@@ -1,4 +1,4 @@
-import { User } from '../entities/User'
+import { User } from '../entities/user.entity'
 import myDataSource from '../../app-data-source'
 
 export const UserRepository = myDataSource.getRepository(User).extend({
